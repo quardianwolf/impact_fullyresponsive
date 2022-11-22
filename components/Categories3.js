@@ -3,18 +3,21 @@ import React from 'react'
 const Categories3 = () => {
     const categories = [
         {
+          id: '1',
           name: 'Desk and Office',
           imageSrc: 'https://cdn.shopify.com/s/files/1/0646/2118/3226/files/collection_list_earphones_6c56cc2c-171a-4e86-a967-b59464cc7820.jpg?v=1659615007&width=600',
           imageAlt: 'Lightweight luxury earphones',
           href: '#',
         },
         {
+          id: '2',
           name: 'Self-Improvement',
           imageSrc: 'https://cdn.shopify.com/s/files/1/0646/2118/3226/files/collection_list_headphones_b76f953b-698b-4257-9340-82efb5619f36.jpg?v=1659615056&width=600',
           imageAlt: 'Upgrade your listening experience',
           href: '#',
         },
         {
+          id: '3',
           name: 'Travel',
           imageSrc: 'https://cdn.shopify.com/s/files/1/0646/2118/3226/files/collection_list_leica.jpg?v=1659615075&width=600',
           imageAlt: 'Discover exclusive collabrations',

@@ -35,8 +35,8 @@ const Twoimage = () => {
                     <div className='slider columns-6 sliderMobil'>
                         <div className="container">
                             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-                                {yazi.map((yazz)=>(
-                                <SwiperSlide>
+                                {yazi.map((yazz, index)=>(
+                                <SwiperSlide key={index}>
                                     <div className="container p-20 ">
                                         <p>{yazz.top}</p>
                                         <h1 style={{width: "332px"}} className="text-[2rem]">{yazz.mid}</h1>
