@@ -1,0 +1,17 @@
+export {default as Layout} from './Layout';
+export {default as Hero} from './Hero';
+export {default as Hero2} from './Hero2';
+export {default as Categories} from './Categories';
+export {default as Categories3} from './Categories3';
+export {default as Marque} from './Marq';
+export {default as Product} from './Product';
+export {default as Box4} from './Box4';
+export {default as BeforeAfter} from './BeforeAfter';
+export {default as GreenBanner} from './GreenBanner';
+export {default as Testimonial} from './Testimonial';
+export {default as Twoimage} from './Twoimage';
+export {default as ProductQuickViev} from './ProductQuickViev';
+export {default as AnimationSec} from './AnimationSec';
+export {default as Story} from './Story';
+export {default as Question} from './Question';
+export {default as Discount} from './Discount';
