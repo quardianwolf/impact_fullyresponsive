@@ -75,7 +75,7 @@ if(showMenu){
             </nav>     
             <div className= 'navbarr'>
                 <div className='container'>
-                  <div className=''>
+                  <div className='' style={{marginLeft: "35px"}}>
                     <div className='logo flex '>
                       <Link href='/'>
                         <img src='../images/Impact_white.webp' className='navbar_logo' />
