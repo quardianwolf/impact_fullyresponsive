@@ -6,6 +6,9 @@ module.exports = {
     "./structure/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       backgroundColor:{
         'black-t-50': 'rgba(1,1,1,1.5)',
