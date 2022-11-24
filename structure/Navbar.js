@@ -65,9 +65,11 @@ if(showMenu){
                       </Link>
                     </div>
                     <div className='icons flex mobilIcon'>
+                      <ul className="flex">
                       <li><FaSearch size={20} className="Fasearch" /></li>
                       <li><FaRegUser size={20} className="Fauser" /></li>
                       <li><FaShoppingCart size={20}  className="Facart"/></li>
+                      </ul>
                     </div>
               </div>
               {menuMask}
