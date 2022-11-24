@@ -24,7 +24,7 @@ const BeforeAfter = () => {
                 <ReactBeforeSliderComponent
                 firstImage={FIRST_IMAGE}
                 secondImage={SECOND_IMAGE}
-                />
+                 alt="img" />
             </div>
         </div>
     </div>
