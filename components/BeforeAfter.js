@@ -6,10 +6,12 @@ import 'react-before-after-slider-component/dist/build.css';
 const BeforeAfter = () => {
 
     const FIRST_IMAGE = {
-        imageUrl: '/images/resim1.png', imageAlt: 'img'
+        imageUrl: '/images/resim1.png', 
+        alt: 'img'
       };
       const SECOND_IMAGE = {
-        imageUrl: '/images/resim2.png', imageAlt: 'img1'
+        imageUrl: '/images/resim2.png',
+         alt: 'img1'
       };
 
   return (
@@ -22,8 +24,8 @@ const BeforeAfter = () => {
                     <p>MH40 Wireless Over-Ear Headphones are an evolution of our very first headphones “The MH40” in celebration of <br/> our five year anniversary.</p>
                 </div>
                 <ReactBeforeSliderComponent
-                firstImage={FIRST_IMAGE} firstImageAlt={img1}
-                secondImage={SECOND_IMAGE} secondImageAlt={img1}
+                firstImage={FIRST_IMAGE} 
+                secondImage={SECOND_IMAGE} 
                  alt="img" />
             </div>
         </div>
