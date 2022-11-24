@@ -6,10 +6,10 @@ import 'react-before-after-slider-component/dist/build.css';
 const BeforeAfter = () => {
 
     const FIRST_IMAGE = {
-        imageUrl: '/images/resim1.png'
+        imageUrl: '/images/resim1.png', imageAlt: 'img'
       };
       const SECOND_IMAGE = {
-        imageUrl: '/images/resim2.png'
+        imageUrl: '/images/resim2.png', imageAlt: 'img1'
       };
 
   return (
