@@ -19,7 +19,7 @@ if(showMenu){
                   <div className='row'>
                    
                     <div className='items flex '>
-                      <ul>
+                      <ul className='flex'>
                         <li><Link href='/'>Shop</Link></li>
                         <li><Link href='/'>Collaborations</Link></li>
                         <li><Link href='/'>Compare</Link></li>
