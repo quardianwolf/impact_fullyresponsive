@@ -57,7 +57,7 @@ if(showMenu){
             <div className='Navbar'> 
             {/* <div className={color ? 'Navbarrr' : 'Navbar'}> */}
             <nav className='mobile-nav'>
-              <span className='text-xl text-white'>
+              <div className='text-xl text-white'>
                 <FaBars onClick={()=> setShowMenu(!showMenu)}/>
                 <div className='logo flex mobilLogo'>
                       <Link href='/'>
@@ -69,7 +69,7 @@ if(showMenu){
                       <li><FaRegUser size={20} className="Fauser" /></li>
                       <li><FaShoppingCart size={20}  className="Facart"/></li>
                     </div>
-              </span>
+              </div>
               {menuMask}
               {menu}
             </nav>     

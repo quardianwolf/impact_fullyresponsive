@@ -6,7 +6,7 @@ const Box4 = () => {
             <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
                 <div className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8">
                     <div className="group aspect-w-2 aspect-h-1 overflow-hidden rounded-lg sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2">
-                        <video autoPlay muted loop type="video/mp4" style={{ width: '700px', height: '500px' }} className="object-cover object-center group-hover:opacity-75 z-10" >
+                        <video autoPlay="true" muted="true" loop="true" type="video/mp4" style={{ width: '700px', height: '500px' }} className="object-cover object-center group-hover:opacity-75 z-10" >
                             <source src='https://cdn.shopify.com/videos/c/vp/64f5e0c914284bc99dab99bcb9919e3b/64f5e0c914284bc99dab99bcb9919e3b.HD-720p-1.6Mbps-9182920.mp4' />
                         </video>
                         <div aria-hidden="true" className="bg-gradient-to-b from-transparent to-black opacity-50"/>

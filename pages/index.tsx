@@ -29,7 +29,7 @@ export default function Home() {
     </section>
     <section className='HomePart_2'>
      <div className='container'>
-       <img src='https://cdn.shopify.com/s/files/1/0646/2118/3226/files/MW08SportGR_Generic_IPhone_800x800_800x800_2f8236b1-cb9a-4b4f-8717-9780ee313d4f.png?v=1660209910&width=1600'/>
+       <img alt="img" src='https://cdn.shopify.com/s/files/1/0646/2118/3226/files/MW08SportGR_Generic_IPhone_800x800_800x800_2f8236b1-cb9a-4b4f-8717-9780ee313d4f.png?v=1660209910&width=1600'/>
      </div>
     </section>
     <Box4 />

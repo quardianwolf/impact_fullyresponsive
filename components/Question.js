@@ -62,7 +62,7 @@ const Question = () => {
 
         {/* Product info */}
         <div className="mt-10 px-4 sm:mt-16 sm:px-0 lg:mt-0 tablo">
-          <section aria-labelledby="details-heading" className="mt-12 bg-gray-200 px-4">
+          <section  className="mt-12 bg-gray-200 px-4">
             <div className="divide-y divide-gray-200 border-t">
               {product.details.map((detail) => (
                 <Disclosure as="div" key={detail.name}>
