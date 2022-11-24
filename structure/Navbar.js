@@ -92,7 +92,7 @@ if(showMenu){
                       </ul>
                     </div>
                     <div className='icons flex '>
-                      <ul>
+                      <ul className='flex'>
                         <li><FaSearch size={20} /></li>
                         <li><FaRegUser size={20}  /></li>
                         <li><FaShoppingCart size={20} /></li>
