@@ -1,0 +1,63 @@
+#hero {
+  height: 100vh;
+  position: relative;
+}
+#hero .backgroundSlide1 {
+  background: linear-gradient(60deg, rgb(60, 65, 68), rgb(23, 29, 33) 98%);
+}
+#hero .backgroundSlide2 {
+  background: linear-gradient(90deg, rgb(49, 66, 105) 20%, rgb(136, 159, 185) 45%, rgb(183, 148, 131) 98%);
+}
+#hero .backgroundSlide3 {
+  background: linear-gradient(127deg, rgb(66, 74, 48) 11%, rgb(138, 157, 123) 100%);
+}
+#hero .swiper {
+  width: 100%;
+  height: 100%;
+}
+#hero .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .swiper-slide img {
+  display: block;
+  width: 1600px;
+  height: 720px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#hero2 {
+  position: absolute;
+  z-index: 20;
+  /* vertical-align: middle; */
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 144px;
+}
+#hero2 .swiper {
+  width: 100%;
+  height: 100%;
+}
+#hero2 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero2 .swiper-slide img {
+  display: block;
+  width: 1600px;
+  height: 720px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=hero.css.map */

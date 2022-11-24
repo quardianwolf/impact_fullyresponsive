@@ -58,7 +58,7 @@ if(showMenu){
             {/* <div className={color ? 'Navbarrr' : 'Navbar'}> */}
             <nav className='mobile-nav'>
               <div className='text-xl text-white'>
-                <FaBars onClick={()=> setShowMenu(!showMenu)}/>
+                <FaBars size={30} className='barss' onClick={()=> setShowMenu(!showMenu)}/>
                 <div className='logo flex mobilLogo'>
                       <Link href='/'>
                         <img src='../images/Impact_white.webp' className='navbar_logo' alt='navbarLogo' />
@@ -66,9 +66,9 @@ if(showMenu){
                     </div>
                     <div className='icons flex mobilIcon'>
                       <ul className="flex">
-                      <li><FaSearch size={20} className="Fasearch" /></li>
+                      <li><FaSearch size={30} className="Fasearch" /></li>
                       <li><FaRegUser size={20} className="Fauser" /></li>
-                      <li><FaShoppingCart size={20}  className="Facart"/></li>
+                      <li><FaShoppingCart size={30}  className="Facart"/></li>
                       </ul>
                     </div>
               </div>

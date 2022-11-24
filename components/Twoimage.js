@@ -40,7 +40,7 @@ const Twoimage = () => {
                                     <div className="container p-20 ">
                                         <p>{yazz.top}</p>
                                         <h1 style={{width: "332px"}} className="text-[2rem]">{yazz.mid}</h1>
-                                        <p style={{width: "614px"}} className="text-xl">{yazz.last}</p>
+                                        <p style={{width: "614px"}} className="text-xl Twobox-p">{yazz.last}</p>
                                     </div>
                                 </SwiperSlide>
                                 ))}

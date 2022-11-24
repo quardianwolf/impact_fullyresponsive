@@ -172,7 +172,7 @@ export default function Example() {
           </div>
         </div>
         <div className="mt-12 border-t border-gray-200 pt-8">
-          <p className="text-base text-gray-400 xl:text-center">&copy;  2022, Impact Theme Sound Copy. Created by Atilla.</p>
+          <p className="text-base text-gray-400 xl:text-center botttomBar">&copy;  2022, Impact Theme Sound Copy. Created by Atilla.</p>
         </div>
       </div>
       </div>

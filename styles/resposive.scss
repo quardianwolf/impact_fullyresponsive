@@ -21,6 +21,11 @@ body {
             /* z-index: 40; */
             position: absolute;
         }
+        .barss{
+            position: relative;
+            left: 20px;
+            top: 10px;
+        }
         .mobilLogo{
             position: relative;
             left: 130px;
@@ -34,12 +39,12 @@ body {
             .Fasearch{
                 position: relative;
                 bottom: 40px;
-                left: 30px;
+                left: 56px;
                 color: white;
             }
             .Facart{
                 position: relative;
-                left: 300px;
+                left: 292px;
                 bottom: 40px;
                 color: white;
             }
@@ -120,9 +125,12 @@ body {
             display: none;
             }
             img{
-                height: 180px;
-                width: 600px;
+                height: 175px;
+                width: 419px !important;
             }
+        }
+        .linee{
+            display: none;
         }
         .greenbann2{
             .left{
@@ -141,7 +149,7 @@ body {
             .right{
                 position: relative;
                 top: 100px;
-                right: 70px;
+                right: 99px;
                 h1{
                     font-size: 60px !important;
                 }
@@ -155,19 +163,20 @@ body {
 
     }
     .Twoimage{
+        height: 72vh;
         .images{
            .img-1{
             height: 160px !important;
             width: 220px !important;
             position: relative;
-            right: 100px;
-            top: 150px;
+            right: 85px;
+            top: 67px;
            }
            .img-2{
             height: 240px;
             width: 220px;
             position: relative;
-            left: 50px;
+            left: -82px;
            }
         }
         .sliderMobil{
@@ -175,6 +184,7 @@ body {
         }
     }
     .ProductSec{
+        height: 80vh;
         .left{
             float: none;
            h1{
@@ -200,10 +210,21 @@ body {
     }
     .AnimationSection{
         position: relative;
+        display: hidden;
+    }
+    .ProductSec{
+        .right{
+            .boxxi2{
+                padding-left: 10px;
+            }
+            .boxxi3{
+                padding-left: 10px;
+            }
+        }
     }
     .StorySec{
-        height: 120vh;
-        padding-top: 20px;
+        height: 217vh;
+    padding-top: 552px;
         .swiper{
             overflow: visible;
         }
@@ -233,13 +254,13 @@ body {
         height: 200vh;
         img{
             position: relative;
-            top: 566px;
+            top: 513px;
             left: 70px;
             
         }
         .box2{
             position: relative;
-            top: 570px;
+            top: 517px;
             
         }
         .tablo{
@@ -250,12 +271,15 @@ body {
         }
     }    
     .discountSec{
+        height: 45vh;
+       
         .container{
             position: relative;
             bottom: 243px;
             width: 337px;
-            display: flex;
+           
             .row{
+                display: block;
                 div{
                     padding-top: 20px;
                 }
@@ -272,6 +296,9 @@ body {
         }
         .grid-cols-2 {
             grid-template-columns: repeat(12, minmax(0, 1fr));
+        }
+        .botttomBar{
+            width: 300px;
         }
     }
 }
@@ -601,20 +628,25 @@ body {
             left: 486px;
             bottom: 22px;
         }
+        .barss{
+            position: relative;
+            left: 51px;
+        }
         .mobilIcon{
             list-style: none;
             .Fauser{             
              display: none;
             }
+           
             .Fasearch{
                 position: relative;
                 bottom: 40px;
-                left: 955px;
+                left: 892px;
                 color: white;
             }
             .Facart{
                 position: relative;
-                left: 965px;
+                left: 903px;
                 bottom: 40px;
                 color: white;
             }
@@ -631,7 +663,7 @@ body {
             border-radius: 1rem;
         }
         .swiper-slide img{
-            height: 445px !important;
+            height: 523px !important;
             width: auto !important;
         }
 
@@ -682,32 +714,32 @@ body {
         }
     }
     .Twoimage{
-        height: 100vh;
+        height: 60vh;
         .images{
            .img-1{
             height: 227px !important;
             width: 220px !important;
             position: relative;
-            left: 189px;
+            left: -100px;
             top: 9px;
            }
            .img-2{
             height: 278px;
             width: 268px;
             position: relative;
-            left: 168px;
+            left: -100px;
            }
         }
         .sliderMobil{
             position: relative;
-            left: 67px;
+            left: -98px;
             bottom: 62px;
             text-align: center;
             padding-top: -3px;
             p{
                 position: relative;
                 right: 89px;
-                width: 601px !important;
+                width: 531px !important;
             }
             
             .swiper-button-prev {
@@ -758,8 +790,9 @@ body {
         }
     }
     .StorySec{
-        height: 120vh;
+        height: 180vh;
         align-items: center;
+        padding-top: 542px;
         .swiper{
             overflow: visible;
         }
@@ -1179,20 +1212,20 @@ body {
             height: 240px !important;
             width: 220px !important;
             position: relative;
-            right: 100px;
+            right: 7px;
             top: 0px;
            }
            .img-2{
             height: 317px;
             width: 266px;
             position: relative;
-            left: -122px;
+            left: -7px;
            }
         }
         .sliderMobil{
             position: relative;
-            left: 362px;
-            bottom: 396px;
+            left: 124px;
+            bottom: 117px;
             /* text-align: center; */
             padding-top: -3px;
             font-size: 24px;
@@ -1460,13 +1493,13 @@ body {
      left: -122px;
     }
  }
- .sliderMobil{
-     position: relative;
-     left: 942px;
-     bottom: 515px;
-     /* text-align: center; */
-     padding-top: -3px;
-     font-size: 24px;
+ .slider{
+    position: relative;
+    /* left: 942px; */
+    bottom: 8px;
+    /* text-align: center; */
+    padding-top: -3px;
+    font-size: 24px;
      p{
          position: relative;
          right: 89px;

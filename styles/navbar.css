@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.top-bar {
+  background-color: black;
+  height: 50px;
+}
+.top-bar ul {
+  display: flex;
+}
+.top-bar ul li {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  color: white;
+}
+
+.Navbar .navbarr {
+  display: flex;
+  color: white;
+}
+.Navbar .navbarr .logo {
+  margin-right: 140px;
+  width: 95px;
+  height: 21px;
+  margin-top: 10px;
+}
+.Navbar .navbarr .items {
+  margin-left: 250px;
+  margin-right: 150px;
+}
+.Navbar .navbarr .items ul {
+  display: flex;
+}
+.Navbar .navbarr .items ul li {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 12px;
+}
+.Navbar .navbarr .icons {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 274px;
+}
+.Navbar .navbarr .icons li {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 12px;
+}
+
+.navigation {
+  position: absolute;
+  /* margin: 20px; */
+  width: auto;
+  z-index: 99;
+}
+.navigation .row {
+  display: flex;
+}/*# sourceMappingURL=navbar.css.map */

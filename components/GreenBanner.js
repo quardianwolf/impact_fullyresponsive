@@ -24,7 +24,7 @@ const GreenBanner = () => {
                         <h3 className='text-[2rem] text-white text-center'>Microphone talk solution</h3>
                         <p className='text-[1rem] text-white text-center'>A proprietary wind-reduction microphone array means clearer calls wherever you are - <br/> focus only on the sound you want.</p>
                     </div>
-                    <hr className="my-4 mx-auto w-48 h-1 bg-gray-100 rounded border-0 md:my-10 dark:bg-gray-700"/>
+                    <hr className="my-4 mx-auto w-48 h-1 bg-gray-100 rounded border-0 md:my-10 dark:bg-gray-700 linee"/>
                     <div className='right'>
                         <h1 className='text-xxl text-white text-center'>5.2</h1>
                         <h3 className='text-[2rem] text-white text-center'>Bluetooth connectivity</h3>
