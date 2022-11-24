@@ -52,7 +52,7 @@ const Question = () => {
               <Tab.Panel>
                <h2 className='text-[2.5rem] py-2'>Have a question? We are here to help.</h2>
                <p className='text-[1rem] text-gray-600 py-2'>Check out the most common questions our customers asked. Still have questions ? Contact our customer support.</p>
-               <img src="https://cdn.shopify.com/s/files/1/0646/2118/3226/files/team-fff.png?v=1660227343&width=160" className='py-2' />
+               <img alt='image' src="https://cdn.shopify.com/s/files/1/0646/2118/3226/files/team-fff.png?v=1660227343&width=160" className='py-2' />
                <p className='text-[1rem] text-gray-600 box2'>Our customer support is available monday to friday: 8am-8:30pm.</p>
                <p className='text-[1rem] text-gray-600 box2'>Average answer time: 24h</p>
               </Tab.Panel>

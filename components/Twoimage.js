@@ -27,8 +27,8 @@ const Twoimage = () => {
                 
                     <div className='  images flex columns-6 float-left'>
                         <div className="row flex">
-                            <img  className="-rotate-2 img-1" style={{width:"390px", height:"462px", borderRadius: "1rem"}} src='https://cdn.shopify.com/s/files/1/0646/2118/3226/files/20191010_HomePageModule_MW07Plus-2_1600x_1.jpg?v=1662969924&width=500' />
-                            <img className="rotate-2 img-2"style={{borderRadius: "1rem"}}  src='https://cdn.shopify.com/s/files/1/0646/2118/3226/files/MH40S2_StillLife-JLApt_2015_1_6cd9855b-2ff2-4fa1-b349-fe312a1bd76c.jpg?v=1662969771&width=500' />
+                            <img  alt='image' className="-rotate-2 img-1" style={{width:"390px", height:"462px", borderRadius: "1rem"}} src='https://cdn.shopify.com/s/files/1/0646/2118/3226/files/20191010_HomePageModule_MW07Plus-2_1600x_1.jpg?v=1662969924&width=500' />
+                            <img alt='image' className="rotate-2 img-2"style={{borderRadius: "1rem"}}  src='https://cdn.shopify.com/s/files/1/0646/2118/3226/files/MH40S2_StillLife-JLApt_2015_1_6cd9855b-2ff2-4fa1-b349-fe312a1bd76c.jpg?v=1662969771&width=500' />
                            
                         </div>
                     </div>

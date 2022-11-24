@@ -61,7 +61,7 @@ if(showMenu){
                 <FaBars onClick={()=> setShowMenu(!showMenu)}/>
                 <div className='logo flex mobilLogo'>
                       <Link href='/'>
-                        <img src='../images/Impact_white.webp' className='navbar_logo' />
+                        <img src='../images/Impact_white.webp' className='navbar_logo' alt='navbarLogo' />
                       </Link>
                     </div>
                     <div className='icons flex mobilIcon'>
@@ -78,7 +78,7 @@ if(showMenu){
                   <div className='' style={{marginLeft: "35px"}}>
                     <div className='logo flex '>
                       <Link href='/'>
-                        <img src='../images/Impact_white.webp' className='navbar_logo' />
+                        <img src='../images/Impact_white.webp' className='navbar_logo' alt='navbarLogo_second' />
                       </Link>
                     </div>
                     <div className='items flex '>
@@ -92,9 +92,11 @@ if(showMenu){
                       </ul>
                     </div>
                     <div className='icons flex '>
-                      <li><FaSearch size={20} /></li>
-                      <li><FaRegUser size={20}  /></li>
-                      <li><FaShoppingCart size={20} /></li>
+                      <ul>
+                        <li><FaSearch size={20} /></li>
+                        <li><FaRegUser size={20}  /></li>
+                        <li><FaShoppingCart size={20} /></li>
+                      </ul>
                     </div>
                   </div>
                 </div>

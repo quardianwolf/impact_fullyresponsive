@@ -55,7 +55,7 @@ const Story = () => {
                     {story.map((s, index)=>(
                     <SwiperSlide key={index}>
                         <div className="flex" >
-                            <img src={s.imageSrc} />
+                            <img alt='image' src={s.imageSrc} />
                             <h2 className="text-[2.5rem] w-[35rem] text-left py-6 px-24">{s.text}</h2>
                         </div>
                     </SwiperSlide>

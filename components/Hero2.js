@@ -10,9 +10,9 @@ const Hero2 = () => {
         <div className='container'>
             <div className='row'>
                 <Swiper  modules={[Navigation, Autoplay, EffectFade]} effect={"fade"} autoplay={{delay:2000, disableOnInteraction: false,}} className="mySwiper">
-                    <SwiperSlide className='backgroundSlide2'><img src='../images/siyahslider.jpg' /></SwiperSlide>   
-                    <SwiperSlide className='backgroundSlide1'><img src='../images/mavislider.jpg' /></SwiperSlide>                  
-                    <SwiperSlide className='backgroundSlide3'><img src='../images/yesilslider.jpg' /></SwiperSlide>
+                    <SwiperSlide className='backgroundSlide2'><img src='../images/siyahslider.jpg' alt='image' /></SwiperSlide>   
+                    <SwiperSlide className='backgroundSlide1'><img src='../images/mavislider.jpg' alt='image' /></SwiperSlide>                  
+                    <SwiperSlide className='backgroundSlide3'><img src='../images/yesilslider.jpg' alt='image' /></SwiperSlide>
                 </Swiper>
             </div>
         </div>

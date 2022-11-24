@@ -5,7 +5,7 @@ const GreenBanner = () => {
         <div className='greenbann'>
             <section >
                 <div className='relative greenbann1'>
-                    <img src='https://cdn.shopify.com/s/files/1/0646/2118/3226/files/2500x1200.png?v=1657703543&width=2000' className='z-10' />
+                    <img src='https://cdn.shopify.com/s/files/1/0646/2118/3226/files/2500x1200.png?v=1657703543&width=2000' alt='image' className='z-10' />
                     
                     <div className='absolute left-0 top-0'>
                         <div className='container p-24'>

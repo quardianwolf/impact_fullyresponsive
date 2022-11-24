@@ -58,7 +58,7 @@ const Product = () => {
             {categories.map((category, index) => (
             <SwiperSlide key={index}>
                 <div className="container" >
-                    <img src={category.imageSrc}   className="z-10"/>
+                    <img src={category.imageSrc} alt='image'  className="z-10"/>
                     <div className="bottom-10 z-20 relative" >
                     <h3 className=" z-20"  >{category.name}</h3> 
                     <p className=" z-20"  >{category.price}</p>

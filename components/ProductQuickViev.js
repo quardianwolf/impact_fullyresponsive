@@ -16,13 +16,13 @@ const ProductQuickViev = () => {
           <div className=" relative  bg-white Rightover">
             <div className='container flex mx-auto items-center justify-center  p-auto'>
               <div className='px-12'>
-                <img className='h-36 w-36' src='https://cdn.shopify.com/s/files/1/0646/2118/3226/products/MW50S1__Angle_800x800_800x800_ff349d7c-b6b5-4611-aa0d-7ca2296c0bb8.png?v=1656927990&width=150' />
+                <img className='h-36 w-36' alt='image' src='https://cdn.shopify.com/s/files/1/0646/2118/3226/products/MW50S1__Angle_800x800_800x800_ff349d7c-b6b5-4611-aa0d-7ca2296c0bb8.png?v=1656927990&width=150' />
                 <h2 className='py-2'>MW50+ (Silver Metal / Black Leather)</h2>
                 <p className='text-s text-grey py-2'>$299.00</p>
                 <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 buton">Light</button>
               </div>
               <div className='px-12'>
-                <img src='https://cdn.shopify.com/s/files/1/0646/2118/3226/products/MW65S2_Angle_800x800_800x800_b3e750fe-677c-4be8-b429-46dbaf957119.png?v=1656929522&width=150'/>
+                <img alt='image' src='https://cdn.shopify.com/s/files/1/0646/2118/3226/products/MW65S2_Angle_800x800_800x800_b3e750fe-677c-4be8-b429-46dbaf957119.png?v=1656929522&width=150'/>
                 <h2>MW50+ (Silver Metal / Black Leather)</h2>
                 <p className='text-s text-grey-200 py-2' >$299.00</p>
                 <button type="button" className=" py-2 text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 buton">Light</button>

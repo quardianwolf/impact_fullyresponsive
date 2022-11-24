@@ -35,7 +35,7 @@ const Testimonial = () => {
                         <blockquote className="text-black text-[2rem]">{yorum.yorumm}</blockquote>
                     </div>
                     <div className="content-center">
-                        <img src={yorum.imageSrc} className="content-center mx-auto"  /> 
+                        <img alt='image' src={yorum.imageSrc} className="content-center mx-auto"  /> 
                     </div>
                 </div>
             </div>
