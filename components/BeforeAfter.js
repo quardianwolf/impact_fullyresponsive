@@ -22,8 +22,8 @@ const BeforeAfter = () => {
                     <p>MH40 Wireless Over-Ear Headphones are an evolution of our very first headphones “The MH40” in celebration of <br/> our five year anniversary.</p>
                 </div>
                 <ReactBeforeSliderComponent
-                firstImage={FIRST_IMAGE}
-                secondImage={SECOND_IMAGE}
+                firstImage={FIRST_IMAGE} firstImageAlt={img}
+                secondImage={SECOND_IMAGE} secondImageAlt={img1}
                  alt="img" />
             </div>
         </div>
